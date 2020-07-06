@@ -8,6 +8,6 @@
         "outDir": "./dist",
     },
     "include": [
-        "src/*.ts"
+        "src/*.ts", "tests/Bike.ts", "tests/Car.ts", "tests/test.ts"
     ]
 }

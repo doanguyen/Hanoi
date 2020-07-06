@@ -16,6 +16,10 @@ export class Vault {
 
     constructor() {}
 
+    static init(){
+        
+    }
+
     dispatch = () => {
         let that = this;
         return (func: any, propertyKey: string, descriptor: PropertyDescriptor) => {

@@ -1,6 +1,6 @@
 import { Bike } from "./Bike";
 import { Car } from "./Car";
-import { vault } from "./Vault";
+import { vault } from "../src/Vault";
 
 const x = new Car()
 const car = vault.select(Car)

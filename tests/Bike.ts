@@ -1,6 +1,6 @@
-import { BaseState } from "./BaseState";
-import { vault } from "./Vault";
-import { State } from "./decorators";
+import { BaseState } from "../src/State";
+import { vault } from "../src/Vault";
+import { State } from "../src/decorators";
 
 interface IBike {
     name: string
